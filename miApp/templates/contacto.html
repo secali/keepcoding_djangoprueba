@@ -1,0 +1,26 @@
+{% extends "layout.html"%}
+
+{%block title%} Contacto {%endblock%}
+
+{%block content%}
+<h1>{{nombre}}</h1>
+<h2>Teléfono: {{telefono}}</h2>
+<h3>Email: {{email}}</h3>
+
+<hr>
+<br><br>    
+<strong>Incidencia sobre el curso {{nombreC}}, {{camadaC}}</strong>
+<br><br><br>
+<form method="get" action>
+    <label for="email_contacto">Email de contacto:</label><br>
+    <input type="email" name="email" id="email"><br>
+    <br>
+    <label for="desc_inc">Descripción incidencia:</label>
+   <br>
+    <textarea id="descripcion" name="descripcion" rows="4" cols="50"></textarea>
+    <br>
+    <input type="submit" value="Submit">
+</form> 
+
+
+{%endblock%}

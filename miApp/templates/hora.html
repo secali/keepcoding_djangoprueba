@@ -1,0 +1,16 @@
+{% extends "layout.html"%}
+
+{%block title%} {{titulo}} {%endblock%}
+
+{%block content%}
+
+
+{%comment 'Esto es un comentario que no aparece en el inspector del navegador, no se procesa'%}
+    <h1>jajaja nunca vas a leer esto!!</h1>
+{%endcomment %}
+
+<h1 class="title">{{titulo}}</h1>
+
+<br><br>
+<h3>Estimado señor/a, son las {{hora}}</h3>
+{%endblock%}

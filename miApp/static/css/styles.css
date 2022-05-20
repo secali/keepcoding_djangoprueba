@@ -1,0 +1,129 @@
+
+
+/*estilos generales*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif, Helvetica;
+    text-decoration: none;
+}
+
+body{
+    background-color: #f2f2f2;
+}
+
+
+/*estilos cabecera*/
+
+header{
+    width: 1200px;
+    height: 140px;
+
+    background-color: #23282b;
+    margin:  0px auto;
+}
+
+#logotipo h1{
+    display: block;
+    letter-spacing: 2px;
+    float: left;
+    font-weight: 100;
+    color: #2ba997;
+    margin-top: 35px;
+    margin-left: 20px;
+}
+
+#logotipo img{
+    display: block;
+    width: 60px;
+    float: left;
+    margin-top: 20px
+}
+
+#logotipo{
+    width: 40%;
+    height: 140px;
+    margin: 0 auto;
+}
+
+nav{
+    width: 1250px;
+    height: 40px;
+    background-color: #1b1e1f;
+    border: 1px solid #333333;
+    margin: 0 auto;
+    box-shadow: 0px 22px 22px gray;
+    font-size: 15px;
+    margin-bottom: 100px;
+}
+
+nav ul{
+    list-style: none;
+    text-decoration: none;
+
+}
+
+nav ul li{
+    line-height: 20px;
+    float: left
+}
+
+nav ul li a{
+    display: block;
+    padding: 10px;
+    padding-right: 20px;
+    padding-left: 15px;
+    color: #d1d4d6
+}
+
+nav ul li a:hover{
+    background-color: #2ba997;
+    box-shadow: 0px 0px 5px #333333 inset;
+    color: white;
+    transition: all 300ms;
+}
+
+
+
+/*Estilos contenido central*/
+
+#content{
+    width: 1250px;
+    min-height: 930px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    margin-top: 60px;
+    
+}
+
+.box{
+    background: white;
+    min-height: 930px;
+    padding: 20px;
+    margin: 0 auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+
+.title{
+    color: #444;
+    letter-spacing: 1px;
+
+    font-size: 30px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+footer{
+    width: 1250px;
+    background-color: #1b1e1f;
+    border: 1px solid #333;
+    color: #d1d4d6;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0 auto;
+    box-shadow: 0px 0px 20px gray;
+}
